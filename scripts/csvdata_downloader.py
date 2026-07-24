@@ -4,8 +4,6 @@ import os
 import pandas as pd
 import shutil
 import filefinder
-import schedule
-import time
 
 # Actual timestamp
 
@@ -219,12 +217,3 @@ json_cleaner(json_filename, csv_filename)
 # Get all downloaded files from datafile list and merge them into one file.
 
 file_merger()
-
-'''def proper_file_download():
-    exec(open("../scripts/csvdata_downloader.py").read())
-
-schedule.every(10).minutes.do(proper_file_download)
-print("The next datafile will be downloaded in 10 minutes.")
-while True:
-    schedule.run_pending()
-    time.sleep(1)'''
