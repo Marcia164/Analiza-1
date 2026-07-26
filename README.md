@@ -16,8 +16,9 @@ This repository is intended to help you:
 
 ## Getting Started
 1. Clone the repository.
-2. Review this README and update it with the actual project details.
-3. Add source files, scripts, or documentation as needed.
+2. Be sure, that PIP has installed all packages mentioned in documentation.
+3. Review this README and update it with the actual project details.
+4. Add source files, scripts, or documentation as needed.
 
 ## Suggested Structure
 - `documentation/` for written notes and references
@@ -26,6 +27,8 @@ This repository is intended to help you:
 - `data/` for datasets or sample inputs
 - `temp/` for temporary filesS
 - `licenses/` for license files
+- `reports/` for report files
+- `tests/` for structured csv files
 
 
 ## Authors:

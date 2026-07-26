@@ -25,7 +25,7 @@ This is a simple markdown-style documentation file. It gives a short overview of
 
   2. smog_raw - jupyter script which manages first, basic data wrangling on smog_raw.csv data file. Saves changed file in "tests" directory, with added timestamp. Adds an area column to the data frame and fills it with province names based on postal code. Removes "-" from post code so it can be read as an integer. Checks, if every city is in the Poland area based on max latitude and longitude (N, S, E and W point), and returns, how many are outside these points.
 
-  3. smog_report_generator - jupyter file to run smog_raw and get reports from executed scripts as pdf and html files.
+  3. smog_report_generator - jupyter file to run smog_raw and get reports from executed scripts as html files.
 
 ### Scripts_different
 
@@ -34,7 +34,6 @@ This is a simple markdown-style documentation file. It gives a short overview of
 ### Reports
 
   - smog_html%(Y)%(m)%(d)_%(H)-%(M).html - an HTML report file generated with smog_raw.ipynb based on data from smog_merged.csv
-  - smog_pdf%(Y)%(m)%(d)_%(H)-%(M).pdf - a PDF report file generated with smog_raw.ipynb based on data from smog_merged.csv
 
 ### Temp
 
@@ -67,7 +66,7 @@ This is a simple markdown-style documentation file. It gives a short overview of
 - requests
 - nbconvert
 - nbformat
-  Also, to generate a pdf file, the latex (https://miktex.org/download) and pandoc (https://pandoc.org/installing.html) packets needed.
+- warnings
 
 ## Notes
 
